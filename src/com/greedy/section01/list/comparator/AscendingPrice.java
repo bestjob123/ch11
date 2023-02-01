@@ -28,6 +28,7 @@ public class AscendingPrice implements Comparator<BookDTO> {
 //		}
 //		return result;
 	
+		
 		if(o1.getPrice()>o2.getPrice()) {
 			return 1;
 		}
